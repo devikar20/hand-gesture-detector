@@ -9,7 +9,7 @@ from notifypy import Notify
 
 #open the webcam
 import cv2 as cv
-import numpy
+
 cap = cv.VideoCapture(0)
 BaseOptions = mp.tasks.BaseOptions
 HandLandmarker = mp.tasks.vision.HandLandmarker
